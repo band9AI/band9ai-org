@@ -8,6 +8,7 @@ Band9AI is not affiliated with the British Council, IDP Education, Cambridge, or
 
 - [Why candidates stay at Band 6–6.5](https://band9ai.org/ielts/): How the overall band is averaged and rounded, and why one weaker skill keeps the result in place.
 - [Which Writing criterion caps the score](https://band9ai.org/ielts/writing-criterion-cap.html): Task Response, coherence, vocabulary, and grammar are averaged inside each task. Task 2 weighs more than Task 1.
+- [Task 1 and Task 2 are not a 50/50 average](https://band9ai.org/ielts/writing-task-weight.html): Each task is scored on its own. Task 2 then weighs more, and the ratio is not published.
 - [Listening raw score](https://band9ai.org/ielts/listening-raw-score.html): Published averages are about 23/40 for Band 6 and about 30/40 for Band 7. A one-band Listening gain does not always move the overall score.
 - [Reading raw score](https://band9ai.org/ielts/reading-raw-score.html): Academic and General Training use different average marks. 30 correct is the Band 7 average on Academic and the Band 6 average on General Training.
 - [Speaking band](https://band9ai.org/ielts/speaking-band.html): Fluency, vocabulary, grammar, and pronunciation are averaged with equal weight. There is no raw score out of 40.
@@ -19,6 +20,7 @@ Band9AI is not affiliated with the British Council, IDP Education, Cambridge, or
 - [Writing points vs the section score](https://band9ai.org/toefl/writing-score.html): Ten sentence items are right or wrong. The email and the academic discussion are 0 to 5. The report shows 1 to 6.
 - [Speaking raw points](https://band9ai.org/toefl/speaking-score.html): Seven Listen and Repeat items and four interview answers, each 0 to 5, can total 55. The reported score is 1 to 6.
 - [Score report through January 2028](https://band9ai.org/toefl/score-report.html): The comparable 0–120 total is a midpoint on the report, not the sum of the 1–6 section scores.
+- [A 0–30 chart cannot score a 2026 test](https://band9ai.org/toefl/old-chart.html): From 21 January 2026 section scores are 1–6. Reading and Listening are adaptive, so there is no correct-answer conversion.
 
 ## Product
 

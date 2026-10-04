@@ -63,6 +63,47 @@ Before a new `.org` URL:
 2. Point the offer at the matching IELTS product: free Reading + Writing Task 2 estimate, Reality Check, Skill Fix, or Complete. A TOEFL guide may link there only when the page says the offer is an IELTS estimate, not a TOEFL score.
 3. After launch, watch Search Console for which URLs actually get impressions. That report, not the folder structure, shows whether this site is taking queries or only ready to.
 
+## The hand-off from a guide to band9ai.com
+
+A generic commercial banner across the top of a guide spends the credibility the page just earned. Put the offer in the article at the moment the reader hits a limit they cannot clear from the explanation alone: the rounding example that leaves the overall band unchanged, the Academic chart that mislabels a General Training raw score, the Writing criterion that grammar edits will not move, or the TOEFL raw total that is not the 1–6 on the report.
+
+Use one inline block there, in the site’s existing colors, then the closing band at the end of the page. Both say the same true next step. Example, after a worked rounding difference, for a reader who needs all four skills:
+
+```html
+<aside class="diagnostic-bridge">
+  <p><strong>Diagnostic note.</strong> The table shows how the average rounds. It does not time a paper or name which skill to train next. The $15 Reality Check on band9ai.com covers Listening, Reading, Writing, and Speaking. It is a practice estimate, not an official score.</p>
+  <a href="https://band9ai.com/checkout?utm_source=band9ai.org&amp;utm_medium=guide&amp;utm_campaign=ielts&amp;utm_content=overall-rounding">Reality Check, $15</a>
+</aside>
+```
+
+Style `.diagnostic-bridge` like the other callouts on the site: light background, red left border, the same type. Do not introduce a second blue. The sentence must match the product. The free estimate is timed Reading plus Writing Task 2. It is not a four-skill engine, and it is not a TOEFL score. Link to the specific URL, not the `band9ai.com` homepage.
+
+### Tag every purchase link
+
+Add UTM parameters to every `band9ai.com` link that can start a purchase: the inline block, the nav button, and the closing band. Trust, methodology, and company links may use the same source and medium so the article is still visible.
+
+| Parameter | Value |
+| --- | --- |
+| `utm_source` | `band9ai.org` |
+| `utm_medium` | `guide` |
+| `utm_campaign` | `ielts` or `toefl`, matching the section |
+| `utm_content` | Page slug, or `nav` / `close` / `footer` when the link is not the inline block |
+
+Analytics on `band9ai.com` can then group visits and checkouts by article. Search Console still answers whether the article is getting impressions. The tagged links answer whether those readers continued. Neither report is a promise of a signup count.
+
+### Match the page to one offer
+
+| What the page just explained | Primary link |
+| --- | --- |
+| Academic and General Training Reading marks | Free IELTS estimate (`/ielts-band-prediction-test`), and say it is timed Reading items plus Writing Task 2, not a full 40-question paper |
+| Writing criteria, or the Task 2 cap | Free IELTS estimate, because it includes Writing Task 2 |
+| Overall rounding, or the Band 6–6.5 plateau | $15 four-skill Reality Check (`/checkout`) |
+| Listening marks out of 40 | $15 Reality Check. Listening is not in the free estimate |
+| Speaking criteria | $15 Reality Check. Speaking is not in the free estimate. Mention Skill Fix at $29 a month only when the page has already shown Speaking is the limiter |
+| A TOEFL scoring rule | An IELTS offer only in a sentence that says the product is IELTS. Use the row above that matches the skill. Do not describe it as a TOEFL diagnostic |
+
+The nav button may stay “Free estimate” or “IELTS estimate” on every page. The inline block and the closing band use the primary link from this table.
+
 ## Search Essentials
 
 Three parts decide whether web content (pages, images, video, or other public material) can appear and do well:
@@ -441,7 +482,9 @@ Use this for every new URL.
 **Commercial**
 
 - [ ] `band9ai.com` does not already answer this question.
-- [ ] The offer matches the page (free estimate, Reality Check, Skill Fix, or Complete).
+- [ ] The inline offer sits where the reader hits the limit of the explanation, not in a banner above the answer.
+- [ ] The offer matches the page (free estimate, Reality Check, Skill Fix, or Complete) using the hand-off table.
+- [ ] Purchase links to `band9ai.com` include `utm_source`, `utm_medium`, `utm_campaign`, and `utm_content`.
 - [ ] Price and what is included are accurate on the day of publishing.
 - [ ] Paid or affiliate links use `rel="sponsored"` or `rel="nofollow"`.
 - [ ] The guide does not redirect away as soon as it loads.
