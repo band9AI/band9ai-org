@@ -1,0 +1,5 @@
+# Public guide on band9ai.org. Product and checkout stay on band9ai.com.
+User-agent: *
+Allow: /
+
+Sitemap: https://band9ai.org/sitemap.xml

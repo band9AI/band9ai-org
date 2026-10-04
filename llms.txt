@@ -1,0 +1,19 @@
+# Band9AI Guides
+
+> Public explainers from BAND9AI HUMAN SYSTEMS INC. about why an IELTS band stalls, how Writing criteria are averaged, and how a practice estimate differs from an official score. Mocks, pricing, and checkout are on https://band9ai.com.
+
+Band9AI is not affiliated with the British Council, IDP Education, or Cambridge. Practice estimates are not official examiner marks.
+
+## Guides
+
+- [Why candidates stay at Band 6–6.5](https://band9ai.org/): How the overall band is averaged and rounded, and why one weaker skill keeps the result in place.
+- [Which Writing criterion caps the score](https://band9ai.org/writing-criterion-cap.html): Task Response, coherence, vocabulary, and grammar are averaged inside each task. Task 2 weighs more than Task 1.
+- [Practice estimate vs official IELTS score](https://band9ai.org/practice-estimate.html): What Band9AI's published 94.2% calibration figure measures, and what it does not claim.
+
+## Product
+
+- [Band9AI](https://band9ai.com): Timed Listening, Reading, Writing, and Speaking mocks with AI feedback.
+- [Free band estimate](https://band9ai.com/ielts-band-prediction-test): Reading plus Writing Task 2. Practice estimate only.
+- [Pricing](https://band9ai.com/checkout): Reality Check $15, Skill Fix $29/mo, Complete $49/mo.
+- [Methodology](https://band9ai.com/trust/methodology-and-validation-2026): Definitions and limits for published calibration figures.
+- [Trust](https://band9ai.com/trust): Company verification.
