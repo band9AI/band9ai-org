@@ -1,19 +1,29 @@
 # Band9AI Guides
 
-> Public explainers from BAND9AI HUMAN SYSTEMS INC. about why an IELTS band stalls, how Writing criteria are averaged, and how a practice estimate differs from an official score. Mocks, pricing, and checkout are on https://band9ai.com.
+> Public explainers from BAND9AI HUMAN SYSTEMS INC. about how an IELTS band and a TOEFL iBT score are built. Mocks, pricing, and checkout are on https://band9ai.com and cover IELTS, not TOEFL.
 
-Band9AI is not affiliated with the British Council, IDP Education, or Cambridge. Practice estimates are not official examiner marks.
+Band9AI is not affiliated with the British Council, IDP Education, Cambridge, or ETS. Practice estimates are not official examiner marks.
 
-## Guides
+## IELTS
 
-- [Why candidates stay at Band 6–6.5](https://band9ai.org/): How the overall band is averaged and rounded, and why one weaker skill keeps the result in place.
-- [Which Writing criterion caps the score](https://band9ai.org/writing-criterion-cap.html): Task Response, coherence, vocabulary, and grammar are averaged inside each task. Task 2 weighs more than Task 1.
-- [Practice estimate vs official IELTS score](https://band9ai.org/practice-estimate.html): What Band9AI's published 94.2% calibration figure measures, and what it does not claim.
+- [Why candidates stay at Band 6–6.5](https://band9ai.org/ielts/): How the overall band is averaged and rounded, and why one weaker skill keeps the result in place.
+- [Which Writing criterion caps the score](https://band9ai.org/ielts/writing-criterion-cap.html): Task Response, coherence, vocabulary, and grammar are averaged inside each task. Task 2 weighs more than Task 1.
+- [Listening raw score](https://band9ai.org/ielts/listening-raw-score.html): Published averages are about 23/40 for Band 6 and about 30/40 for Band 7. A one-band Listening gain does not always move the overall score.
+- [Reading raw score](https://band9ai.org/ielts/reading-raw-score.html): Academic and General Training use different average marks. 30 correct is the Band 7 average on Academic and the Band 6 average on General Training.
+- [Speaking band](https://band9ai.org/ielts/speaking-band.html): Fluency, vocabulary, grammar, and pronunciation are averaged with equal weight. There is no raw score out of 40.
+- [Practice estimate vs official IELTS score](https://band9ai.org/ielts/practice-estimate.html): What Band9AI's published 94.2% calibration figure measures, and what it does not claim.
+
+## TOEFL iBT
+
+- [How the 1–6 overall is rounded](https://band9ai.org/toefl/): From 21 January 2026 the overall score averages four section scores. ETS's examples: 5.125 becomes 5, and 5.25 becomes 5.5.
+- [Writing points vs the section score](https://band9ai.org/toefl/writing-score.html): Ten sentence items are right or wrong. The email and the academic discussion are 0 to 5. The report shows 1 to 6.
+- [Speaking raw points](https://band9ai.org/toefl/speaking-score.html): Seven Listen and Repeat items and four interview answers, each 0 to 5, can total 55. The reported score is 1 to 6.
+- [Score report through January 2028](https://band9ai.org/toefl/score-report.html): The comparable 0–120 total is a midpoint on the report, not the sum of the 1–6 section scores.
 
 ## Product
 
-- [Band9AI](https://band9ai.com): Timed Listening, Reading, Writing, and Speaking mocks with AI feedback.
-- [Free band estimate](https://band9ai.com/ielts-band-prediction-test): Reading plus Writing Task 2. Practice estimate only.
+- [Band9AI](https://band9ai.com): Timed IELTS Listening, Reading, Writing, and Speaking mocks with AI feedback. Not a TOEFL score.
+- [Free band estimate](https://band9ai.com/ielts-band-prediction-test): IELTS Reading plus Writing Task 2. Practice estimate only.
 - [Pricing](https://band9ai.com/checkout): Reality Check $15, Skill Fix $29/mo, Complete $49/mo.
 - [Methodology](https://band9ai.com/trust/methodology-and-validation-2026): Definitions and limits for published calibration figures.
 - [Trust](https://band9ai.com/trust): Company verification.
