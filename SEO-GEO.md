@@ -153,7 +153,7 @@ Google’s AI systems can only use what Search can find and process. Existing te
 - **Indexed and snippet-eligible.** Required for generative AI features.
 - **Included in Search Console’s generative AI features setting.** Required for display there.
 - **Crawlable.** Generative models use publicly accessible, crawlable content. `robots.txt` on this site allows `/`. Keep important text in the HTML, not only inside blocked scripts or images.
-- **Internal links.** Other guides must be reachable by crawlable links. IELTS guides live in `/ielts/`. TOEFL iBT guides live in `/toefl/`. The home page links both. Old root URLs for the first IELTS guides redirect to `/ielts/`. List every indexable URL in `sitemap.xml`.
+- **Internal links.** Other guides must be reachable by crawlable links. IELTS guides live in `/ielts/`. TOEFL iBT guides live in `/toefl/`. The home page links both. Old root URLs for the first IELTS guides redirect to `/ielts/`. `scripts/build-sitemap.py` rebuilds `sitemap.xml` from every indexable HTML page (it skips `noindex` redirects). A push to `main` that changes HTML runs that script and commits the sitemap. Do not hand-edit `sitemap.xml`, and do not add `SEO-GEO.md`.
 - **TOEFL pages do not invent a TOEFL product.** Band9AI’s paid practice on band9ai.com is IELTS. A TOEFL guide may link there only when it says the offer is an IELTS estimate, not a TOEFL score.
 - **Crawl budget.** This site is small. The large-site crawl-budget guide matters only if the site later becomes very large or updates constantly. Until then, a current sitemap and the Page indexing report are enough.
 - **Semantic HTML.** Perfect markup is not required. Google understands imperfect HTML. Use semantic elements when they help people, including screen-reader users.
@@ -433,7 +433,7 @@ Use this for every new URL.
 - [ ] Canonical URL on `https://band9ai.org/...`.
 - [ ] Indexable, snippet allowed, main text in HTML.
 - [ ] Crawlable links to related guides and, where it helps, to the matching `band9ai.com` page.
-- [ ] In `sitemap.xml` with an accurate `lastmod`.
+- [ ] The page is indexable HTML with a canonical URL on `https://band9ai.org`. The sitemap is regenerated from those pages on the next push to `main`. A `noindex` redirect is left out.
 - [ ] Structured data matches visible content and validates.
 - [ ] Images, if any, are relevant, compressed, and honestly described in alt text.
 - [ ] No second URL for a spelling variant, a city, or a fan-out query.
